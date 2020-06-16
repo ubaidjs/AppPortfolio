@@ -82,7 +82,8 @@ export const projectsData = [
 export const contactData = {
   cta: 'Would you like to work with us?',
   btn: '',
-  email: 'ubaidusid@gmail.com',
+  email: 'badnagarwala52@gmail.com',
+  phone: '+918871550451'
 };
 
 // FOOTER DATA
