@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hello 👋',
-  name: '',
-  subtitle: 'Checkout our projects here.',
+  name: 'I\'m Ubaid',
+  subtitle: 'Checkout my projects here.',
   cta: '👇',
 };
 
@@ -28,16 +28,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'greenhope.png',
-    title: 'Greenhope',
-    info:
-      'Features: Appointment booking, Private video call, Private chat, Product information, Account management, Login with google and more',
-    info2: '',
-    url: 'https://play.google.com/store/apps/details?id=com.greenhopewellness',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
     img: 'vehicle.png',
     title: 'Vehicle Bazar',
     info:
@@ -48,12 +38,22 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'blueteam.png',
-    title: 'Blueteam Serviceman',
+    img: 'max.png',
+    title: 'MaxFM',
     info:
-      'Features: Booking management, Notifications, QR scanner, Profile and Edit profile, Calendar, Login and signup',
+      'Features: Audio stream player, next song calculation, articles feed, article read screen, dynamic homescreen',
     info2: '',
-    url: 'https://play.google.com/store/apps/details?id=com.laurelit.btserviceman',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+    {
+    id: uuidv1(),
+    img: 'greenhope.png',
+    title: 'Greenhope',
+    info:
+      'Features: Appointment booking, Private video call, Private chat, Product information, Account management, Login with google and more',
+    info2: '',
+    url: 'https://play.google.com/store/apps/details?id=com.greenhopewellness',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -80,10 +80,10 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would you like to work with us?',
+  cta: 'Would you like to work with me?',
   btn: '',
-  email: 'badnagarwala52@gmail.com',
-  phone: '+918871550451'
+  email: 'ubaidsiddiquimail@gmail.com',
+  phone: '+917024662056'
 };
 
 // FOOTER DATA
@@ -92,22 +92,22 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'www.twitter.com/ubaidjs',
     },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'www.linkedin.com/in/ubaidsiddiqui',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'www.github.com/ubaidjs',
     },
   ],
 };
